@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Leezyno Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-color: #1e90ff;
+            color: white;
+            text-align: center;
+            padding: 25px 20px;
+        }
+        header img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            display: block;
+            margin: 15px auto;
+        }
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 12px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+        section {
+            background-color: white;
+            margin: 20px auto;
+            padding: 25px;
+            border-radius: 12px;
+            max-width: 900px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #1e90ff;
+            margin-bottom: 15px;
+        }
+        footer {
+            text-align: center;
+            background-color: #1e90ff;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        .social-buttons a {
+            display: inline-block;
+            background-color: #1e90ff;
+            color: white;
+            padding: 10px 18px;
+            margin: 6px 5px;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+        .social-buttons a:hover {
+            background-color: #0066cc;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .gallery img {
+            width: 200px;
+            border-radius: 10px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        @media screen and (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 8px 0;
+            }
+            .gallery img {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Leezyno Portfolio</h1>
+    <p>J Leealah Canmue</p>
+    <img src="https://via.placeholder.com/130" alt="Profile Photo">
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="#blog">Blog</a>
+    <a href="#favorites">Favorites</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#gallery">Gallery</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! My name is <strong>J Leealah Canmue</strong>, also known as <strong>Leezyno</strong>. I am a passionate young student born on <strong>May 10, 2010</strong>, currently in <strong>Grade 12</strong> at <strong>William VS Tubman Gray High School</strong>. I love participating in <strong>debates and educational activities</strong> and enjoy learning new skills while sharing knowledge. In my free time, I follow my favorite artist <strong>JZyNo</strong> and stay active on social media platforms like Facebook and TikTok.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:jleealahcanmue@gmail.com">jleealahcanmue@gmail.com</a></p>
+    <p>Phone: <a href="tel:0779067506">0779067506</a></p>
+    <div class="social-buttons">
+        <a href="https://wa.me/0779067506" target="_blank">WhatsApp</a>
+        <a href="http://tiktok.com/@canmueleealah1234" target="_blank">TikTok</a>
+    </div>
+</section>
+
+<section id="blog">
+    <h2>Blog</h2>
+    <p>Follow my blog: <a href="https://www.facebook.com/LonerWorld" target="_blank">Loner World on Facebook</a></p>
+</section>
+
+<section id="favorites">
+    <h2>Favorites</h2>
+    <p>Favorite Artist: <strong>JZyNo</strong></p>
+</section>
+
+<section id="portfolio">
+    <h2>Portfolio / Projects</h2>
+    <p>Here are some of my key achievements and projects:</p>
+    <ul>
+        <li>Debate: Voice of Environment Tournament</li>
+        <li>Information Technology school projects</li>
+        <li>Other academic achievements</li>
+    </ul>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <img src="https://via.placeholder.com/200" alt="Gallery Image 1">
+        <img src="https://via.placeholder.com/200" alt="Gallery Image 2">
+        <img src="https://via.placeholder.com/200" alt="Gallery Image 3">
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Leezyno Portfolio</p>
+</footer>
+
+</body>
+</html>
